@@ -1,13 +1,14 @@
 import styles from '../styles/Home.module.css'
 import styled from '@emotion/styled'
+import Layout from '../components/layout/Layout';
 
-const Head = styled.h1`
-  color: red;
-`
+
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>Index</Head>
+    <div>
+      <Layout>
+        <h1>Index</h1>
+      </Layout>
     </div>
   )
 }
