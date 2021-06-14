@@ -1,11 +1,23 @@
 import React from 'react'
+import utilStyles from '../../styles/utils.module.css'
 
 const Search = () => {
     return ( 
-        <form action="">
-            <input type="text"/>
+        <form 
+            className={utilStyles.searchForm}
+            action=""
+        >
+
+            <input 
+                className={utilStyles.searchTextField}
+                type="text"
+                placeholder="Search products"
+            />
             
-            <button type="submit">Search</button>
+            <button
+                className={utilStyles.searchSubmit}
+                type="submit"
+            >Search</button>
         </form>
     );
 }

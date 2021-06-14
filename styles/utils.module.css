@@ -1,0 +1,121 @@
+/* Header Styles */
+.heading {
+    border-bottom: 2px solid var(--grey3);
+    padding: 1rem 1rem;
+}
+
+.headeContainer {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Product hunt logo styles */
+.logo {
+    color: var(--orange);
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 2rem;
+}
+
+/* Header container left part styles */
+
+.headerContainer > div {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+
+}
+
+.searchTextField {
+    border: 1px solid var(--grey3);
+    padding: 1rem;
+}
+
+.searchSubmit {
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    background-size: 4rem;
+    background-image: url('/images/buscar.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1rem;
+    top: 1px;
+    background-color: #fff;
+    border: none;
+    text-indent: -999px;
+}
+
+.searchSubmit:hover {
+    cursor: pointer;
+}
+
+.searchForm {
+    position: relative;
+}
+
+.nav {
+    padding-left: 2rem;
+}
+
+.nav > a {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: var(--grey2);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav > a:last-of-type {
+    margin-right: 0;
+}
+
+/* Button styles */
+
+.styledButton {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #d1d1d1;
+    padding: .8rem 2rem;
+    margin-right: 1rem; 
+    background-color: #fff;
+    color: #000;
+}
+
+.styledButtonBg {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #d1d1d1;
+    padding: .8rem 2rem;
+    margin-right: 1rem; 
+    background-color: #DA552F;
+    color: #fff;
+}
+
+.styledButton:last-of-type {
+    margin-right: 0;   
+}
+
+.styledButton:hover,.styledButtonBg:hover,.styledButton:last-of-type:hover {
+    cursor: pointer;
+}
+
+/* Account Heading Buttons styles */
+
+.accountHeadingButtons {
+    display: flex;
+    align-items: center;
+}
+
+.accountHeadingButtons > p {
+    margin-right: 2rem;
+}
