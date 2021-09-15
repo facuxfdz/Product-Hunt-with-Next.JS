@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 const Button = (props) => {
 
-    const ButtonComp = props.bgColor 
+    const ButtonComp = props.bgColor
 
         ? ( 
-            <Link href={props.href}>
+            <Link href={props.children}>
                 <a
                 className={utilStyles.styledButtonBg}>
                     {props.children}
@@ -14,9 +14,9 @@ const Button = (props) => {
             </Link>
         )
         : (
-            <Link href={props.href}>
+            <Link href={props.children}>
                 <a 
-                href={props.href}
+                href={props.children}
                 className={utilStyles.styledButton}>
                     {props.children}
                 </a>

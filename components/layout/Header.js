@@ -37,14 +37,14 @@ const Header = () => {
                         <>
                             
                                 <Button 
-                                    href="/sign-in"
+                                    href='/sign-in'
                                     bgColor
                                 >Sign in</Button>
                             
         
                             
                                 <Button
-                                    href="/sign-up"
+                                    href='/sign-up'
                                 >Sign up</Button>
                             
                         </>
