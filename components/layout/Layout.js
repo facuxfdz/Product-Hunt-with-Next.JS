@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import { Header } from './'
 import Head from 'next/head'
 
 const Layour = props => {
@@ -7,7 +7,6 @@ const Layour = props => {
         <>
 
             <Head>
-                <html lang="es" />
                 <title>Product Hunt Firebase</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />

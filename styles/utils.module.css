@@ -119,3 +119,10 @@
 .accountHeadingButtons > p {
     margin-right: 2rem;
 }
+
+/* H1 Form section */
+
+.sectionName {
+    text-align: center;
+    margin-top: 2rem;
+}

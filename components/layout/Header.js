@@ -1,9 +1,8 @@
 import React from 'react'
-import Search from '../UI/Search'
-import Nav from '../layout/Nav'
+import { Search, Button } from '../UI'
+import { Nav } from '../layout'
 import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
-import Button from '../UI/Button'
 
 const Header = () => {
 
@@ -37,14 +36,14 @@ const Header = () => {
                         <>
                             
                                 <Button 
-                                    href='/sign-in'
+                                    to="/sign-in"
                                     bgColor
                                 >Sign in</Button>
                             
         
                             
                                 <Button
-                                    href='/sign-up'
+                                    to="/sign-up"
                                 >Sign up</Button>
                             
                         </>
